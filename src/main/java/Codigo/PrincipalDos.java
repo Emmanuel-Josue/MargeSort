@@ -11,8 +11,9 @@ package Codigo;
 public class PrincipalDos {
 
     /**
-     * @param args the command line arguments
-     */
+     * Algoritmo explicado de este video 
+     * https://youtu.be/_mqv-ivMzaw?list=PLM-p96nOrGcbznQ2ky13QIM7Fc8AQ150T
+*/
     public static void main(String[] args) {
 
         CListaLigada miLista = new CListaLigada();

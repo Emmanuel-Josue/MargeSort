@@ -39,13 +39,13 @@ public class Principal {
     
     public CListaLigada recursivo(CListaLigada coleccion)
     {
-        CListaLigada ordenada = new CListaLigada();
-        CListaLigada listaUno = new CListaLigada();
-        CListaLigada listaDos = new CListaLigada();
-        
+        CListaLigada ordenada = null;
+        CListaLigada listaUno = null;
+        CListaLigada listaDos = null;
         
         if(coleccion.cantidadDeElementos() > 1)
         {
+            ordenada = new CListaLigada();
             int puntoMedio = coleccion.cantidadDeElementos() / 2;
             listaUno = this.rellenarLista(coleccion, puntoMedio,0);
             listaDos = this.rellenarLista(coleccion, coleccion.cantidadDeElementos(), puntoMedio);
